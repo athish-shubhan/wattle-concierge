@@ -207,3 +207,7 @@ The adapter's multi-turn tool loop (including asks and parallel tool results) is
 
 ---
 Built by Athish Shubhan.
+
+## License
+
+MIT, see [LICENSE](LICENSE).
