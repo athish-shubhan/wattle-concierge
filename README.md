@@ -29,6 +29,10 @@ pytest -q                                    # 50 tests, incl. eval and replay r
 ```
 Python 3.10+, no runtime dependencies (`pytest` for tests, `anthropic` only for the optional LLM mode).
 
+![The offline HTML report](docs/report.gif)
+
+*The offline report (`python -m evals.html`): the conversation explorer shows each tool call and the verdict of every policy gate, and switches between the guarded concierge and the same agent with no gates. Recorded from `report/index.html`; all data in it is mock, as stated at the top of the page.*
+
 ---
 
 ## 1. The customer problem
